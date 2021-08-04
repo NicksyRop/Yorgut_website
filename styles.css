@@ -43,6 +43,16 @@ display: block;
 
 }
 
+.btn-primary , .btn-primary:hover{
+
+    background-color: #00BBC9;
+    border-color: white;
+}
+
+
+
+
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
@@ -62,6 +72,7 @@ display: block;
 
         width: 32%;
     }
+
 
 
 }
