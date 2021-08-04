@@ -29,8 +29,17 @@ h1{
 li a{
     margin-right: 20px;
 }
-.founder{
+.mycard{
 
+    background-color: white;
+
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+
+}
+.mycardgroup{
+display: block;
 
 }
 
@@ -40,11 +49,19 @@ li a{
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-
  }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+    .mycardgroup{
+        display: flex;
+        justify-content: space-around;
+    }
+    .mycard{
+
+        width: 32%;
+    }
 
 
 }
