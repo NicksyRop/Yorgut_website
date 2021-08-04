@@ -48,7 +48,16 @@ display: block;
     background-color: #00BBC9;
     border-color: white;
 }
+footer{
 
+
+    margin-bottom: 10px;
+    padding: 20px 0;
+    color: white;
+    font-weight: 700;
+
+}
+i{color: red;}
 
 
 
@@ -67,6 +76,7 @@ display: block;
     .mycardgroup{
         display: flex;
         justify-content: space-around;
+        margin-bottom: 20px;
     }
     .mycard{
 
